@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Characters from './components/CHaracters'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
 
     <Header />
     <Hero />
+    <Characters />
 
     </div>
   )
